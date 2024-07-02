@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.22.4
 
 ARG BOR_DIR=/var/lib/bor
 ENV BOR_DIR=$BOR_DIR
